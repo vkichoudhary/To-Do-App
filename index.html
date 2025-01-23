@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <!-- Sidebar -->
+    <nav class="sidebar">
+      <h2>Hello, vikas</h2>
+      <ul id="categories">
+        <li data-category="today">Today</li>
+        <li data-category="planned">Planned</li>
+        <li data-category="personal" class="active">Personal</li>
+        <li data-category="work">Work</li>
+        <li data-category="shopping">Shopping</li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main">
+      <div class="task-list">
+        <h2 id="category-title">Personal</h2>
+        <ul id="task-items">
+          <li><input type="checkbox"> Meet friends</li>
+          <li><input type="checkbox"> Change your picture</li>
+          <li><input type="checkbox"> Buy theatre ticket</li>
+          <li><input type="checkbox"> Go to gym</li>
+          <li><input type="checkbox"> kkk</li>
+          <li><input type="checkbox"> kkkdk</li>
+        </ul>
+        <button id="add-task">+ Add Task</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
